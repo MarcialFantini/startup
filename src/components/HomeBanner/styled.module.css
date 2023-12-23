@@ -1,0 +1,36 @@
+.containerSection {
+  background-image: linear-gradient(111deg, #e9f7ff 9.95%, #ffdbd4 85.17%);
+  min-height: 100vh;
+
+  padding: 60px 0 10px 0;
+}
+
+.containerAll {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerBtn {
+  display: flex;
+  gap: 10px;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 90%;
+  height: auto;
+}
