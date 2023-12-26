@@ -1,0 +1,12 @@
+.sectionContainer {
+  min-height: 100vh;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  background: linear-gradient(
+    111deg,
+    #e9f7ff 9.66%,
+    #ffdbd4 57.52%,
+    #fff3ca 103.42%
+  );
+}

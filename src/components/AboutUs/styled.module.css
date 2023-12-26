@@ -1,0 +1,61 @@
+.sectionAboutUs {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.limitContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.img {
+  width: 130%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rowHead {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.list {
+  padding-left: 5%;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgIcon {
+  margin-right: 20px;
+  max-width: 70px;
+}
+
+.subTitle {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}

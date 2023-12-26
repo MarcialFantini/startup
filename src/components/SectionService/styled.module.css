@@ -8,7 +8,9 @@
 }
 
 .containerArticles {
-  width: 95%;
+  padding: 20px;
+
+  width: 90%;
   max-width: 800px;
   margin: auto;
 
