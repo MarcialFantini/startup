@@ -1,8 +1,51 @@
 .sectionFooter {
   background: #292930;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
 }
 
 .containerMax {
   max-width: 1200px;
   margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.containerSubscribe {
+  padding: 20px;
+  background: #3c3c45;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.inputEmail {
+  padding: 10px;
+  font-size: 1.4rem;
+  background: #5b5b61;
+  border-radius: 8px;
+  border: none;
+}
+
+.btnCustom {
+  background: #ffdc60;
+  color: black;
+}
+
+.textFooter {
+  color: white;
 }

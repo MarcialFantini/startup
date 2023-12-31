@@ -15,7 +15,6 @@ export default function Home() {
       <SectionProcces></SectionProcces>
       <SectionStudies></SectionStudies>
       <SectionOurPrice></SectionOurPrice>
-      <SectionFooter></SectionFooter>
     </main>
   );
 }
