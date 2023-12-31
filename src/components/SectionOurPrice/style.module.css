@@ -77,4 +77,17 @@
 
 .customBtn {
   width: 100%;
+  font-size: 1.4rem;
+
+  transition: all 0.3s;
+}
+
+.customBtn:hover {
+  filter: invert();
+}
+
+.middlePrice {
+  background: white;
+  border: 1px solid white;
+  color: black;
 }

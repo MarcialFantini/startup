@@ -36,14 +36,17 @@ export const SectionOurPrice = () => {
               Contact Me
             </Button>
           </article>
-          <article>
+          <article
+            style={{ background: "#292930", color: "white" }}
+            className={styled.middleCard}
+          >
             <div className={styled.topArticle}>
               <picture>
                 <Image src={""} alt=""></Image>
               </picture>
               <div className={styled.containerTextTop}>
-                <h3>Starter</h3>
-                <p>$29 </p>
+                <h3 style={{ color: "white" }}>Starter</h3>
+                <p style={{ color: "white" }}>$29 </p>
               </div>
             </div>
             <ul>
@@ -53,7 +56,10 @@ export const SectionOurPrice = () => {
               <li>ConsultingVideo</li>
               <li>MarketingAdvertising</li>
             </ul>
-            <Button classCustom={styled.customBtn} dark>
+            <Button
+              classCustom={styled.customBtn + " " + styled.middlePrice}
+              dark
+            >
               Contact Me
             </Button>
           </article>
