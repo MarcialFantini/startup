@@ -9,4 +9,97 @@
     #ffdbd4 57.52%,
     #fff3ca 103.42%
   );
+  border-radius: 10px;
+  padding: 5% 10%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.header h2 {
+  max-width: 450px;
+}
+
+.containerArticles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  gap: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.article {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  justify-items: center;
+  align-items: center;
+  max-height: 300px;
+
+  z-index: 2;
+}
+
+.picture {
+  max-width: 300px;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.containerText {
+  max-width: 300px;
+}
+
+.containerText h3 {
+  margin: 0;
+}
+
+.number {
+  border: 3px solid salmon;
+  border-radius: 50%;
+  width: 40px;
+  aspect-ratio: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.line {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  border: dotted 1px black;
+}
+
+@media (max-width: 800px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+
+    max-height: none;
+  }
 }

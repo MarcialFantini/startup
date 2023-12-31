@@ -1,0 +1,70 @@
+.sectionAll {
+  background: #292930;
+  min-height: 90vh;
+  padding: 40px 20px;
+}
+.maxSection {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  color: white;
+}
+
+.article {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 20px;
+
+  margin: 40px 0;
+}
+
+.drops {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.drops div {
+  border-radius: 10px;
+  background: #383840;
+  min-height: 100px;
+  padding: 20px;
+
+  transition: all 0.2s;
+  color: white;
+  cursor: pointer;
+}
+
+.drops div:hover {
+  color: #ffda57;
+}
+
+.pictureArticle {
+  border-radius: 10px;
+  background: linear-gradient(
+    317deg,
+    #ffda57 -11.19%,
+    #ffda57 20.41%,
+    #5956e8 71.73%,
+    #5956e8 110.15%
+  );
+  aspect-ratio: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 70%;
+  height: 70%;
+}
