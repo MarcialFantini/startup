@@ -13,6 +13,8 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
+
+  padding: 10px;
 }
 
 .containerSubscribe {
@@ -39,6 +41,7 @@
   background: #5b5b61;
   border-radius: 8px;
   border: none;
+  color: white;
 }
 
 .btnCustom {
@@ -48,4 +51,10 @@
 
 .textFooter {
   color: white;
+}
+
+@media (max-width: 800px) {
+  .containerMax {
+    grid-template-columns: 1fr;
+  }
 }
