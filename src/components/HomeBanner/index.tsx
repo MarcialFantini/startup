@@ -9,20 +9,21 @@ export const HomeBanner = () => {
       <div className={style.containerAll}>
         <article className={style.article}>
           <p className={style.subtitle}>
-            <span>//</span> Agency
+            <span>//</span> Consultoría de software
           </p>
           <h2 className={style.title}>
-            A fully integrated digital <span>marketing</span> Agency
+            Tu solución <span>digital</span> para abordar tus desafíos.
           </h2>
           <p className={style.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            corporis aliquid odit dicta alias architecto iste recusandae
-            explicabo fugiat, aperiam saepe officiis veritatis velit enim,
-            voluptas consectetur molestias culpa quaerat.
+            Desarrollamos soluciones web a medida, diseñadas exclusivamente para
+            satisfacer tus requerimientos específicos. Elevamos la presencia
+            digital de tu negocio al siguiente nivel, asegurándonos de que cada
+            página web refleje tu identidad única y alcance los objetivos que te
+            propones.
           </p>
           <div className={style.containerBtn}>
-            <Button dark>Our Services</Button>
-            <Button>Get Started</Button>
+            <Button dark>Nuestros servicios</Button>
+            <Button>Conecta con nosotros!</Button>
           </div>
         </article>
         <picture className={style.picture}>

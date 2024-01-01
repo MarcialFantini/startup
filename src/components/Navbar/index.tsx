@@ -4,7 +4,7 @@ import styled from "./styled.module.css";
 export const Navbar = () => {
   return (
     <header className={styled.containerNav}>
-      <h1 className={styled.title}>Promote</h1>
+      <h1 className={styled.title}>Marchu Dev</h1>
       <nav className={styled.navbar}>
         <ul className={styled.listLink}>
           <li>Home</li>
