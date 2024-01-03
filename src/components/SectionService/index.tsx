@@ -10,17 +10,17 @@ const listArticles = [
   {
     src: srcIcon1,
     title: "Landing page",
-    text: "Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. ",
+    text: "Optimizada para captar clientes, perfecto complemento de una campaña de marketing",
   },
   {
     src: srcIcon2,
-    title: "Empresarial page",
-    text: "Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. ",
+    title: "Pagina Empresarial",
+    text: "Ideal para generar presencia, credibilidad y comunicación con clientes",
   },
   {
     src: srcIcon3,
-    title: "Ecommerce page",
-    text: "Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt. ",
+    title: "Tienda online",
+    text: "Vende tus productos de manera online, disponible 24/7 y felicidad de gestión de inventarios",
   },
 ];
 
@@ -33,9 +33,10 @@ export const SectionService = () => {
             <Image src={""} alt=""></Image>
           </picture>
           <div>
-            <p>// 01 . Services</p>
+            <p>// 01 . Servicios</p>
             <h2>
-              High-impact services to take your business to the next level
+              Nuestros servicios de alto impacto para llevar tu negocio al
+              siguiente nivel.
             </h2>
           </div>
         </div>
@@ -53,8 +54,8 @@ export const SectionService = () => {
                     alt={item.title}
                   ></Image>
                 </picture>
-                <h4>{item.title}</h4>
-                <p>{item.text}</p>
+                <h4 className={styled.title}>{item.title}</h4>
+                <p className={styled.textArticle}>{item.text}</p>
                 <Button classCustom={styled.button}> Reed More</Button>
               </article>
             );

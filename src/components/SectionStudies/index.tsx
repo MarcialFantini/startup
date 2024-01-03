@@ -11,27 +11,25 @@ export const SectionStudies = () => {
             <Image src={""} alt=""></Image>
           </picture>
           <div>
-            <p>// 01 . Services</p>
-            <h2>
-              High-impact services to take your business to the next level
-            </h2>
+            <p>// 05. Soluciones</p>
+            <h2>Alto impacto con nuestras soluciones</h2>
           </div>
         </div>
 
         <article className={styled.article}>
           <div className={styled.drops}>
             <div>
-              <h3> Resolvemos tus problemas</h3>
+              <h3> Te damos presencia online</h3>
             </div>
             <div>
-              <h3>Ahorramos el tiempo de tu empresas</h3>
+              <h3>Ahorramos el tiempo en procesos</h3>
             </div>
 
             <div>
-              <h3>Creamos tu visibilidad en internet</h3>
+              <h3>Automatizamos tus ventas online</h3>
             </div>
             <div>
-              <h3>Creamos la tienda online que necesitas</h3>
+              <h3>Te damos una forma clara de comunicación con el cliente</h3>
             </div>
           </div>
           <picture className={styled.pictureArticle}>

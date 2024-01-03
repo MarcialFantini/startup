@@ -10,8 +10,8 @@ export const SectionOurPrice = () => {
           <picture className={styled.iconGreat}>
             <Image src={""} alt=""></Image>
           </picture>
-          <p>// 06 . Price & Plan</p>
-          <h2>Our Flexible Pricing Plans</h2>
+          <p>// 06 . Paquetes y precios</p>
+          <h2>Paquetes flexibles que necesitas para tu empresa</h2>
         </div>
 
         <div className={styled.articles}>
@@ -21,8 +21,8 @@ export const SectionOurPrice = () => {
                 <Image src={""} alt=""></Image>
               </picture>
               <div className={styled.containerTextTop}>
-                <h3>Starter</h3>
-                <p>$29 </p>
+                <h3>Básico</h3>
+                <p>$400 </p>
               </div>
             </div>
             <ul>
@@ -45,8 +45,8 @@ export const SectionOurPrice = () => {
                 <Image src={""} alt=""></Image>
               </picture>
               <div className={styled.containerTextTop}>
-                <h3 style={{ color: "white" }}>Starter</h3>
-                <p style={{ color: "white" }}>$29 </p>
+                <h3 style={{ color: "white" }}>Empresarial</h3>
+                <p style={{ color: "white" }}>$800 </p>
               </div>
             </div>
             <ul>
@@ -69,8 +69,8 @@ export const SectionOurPrice = () => {
                 <Image src={""} alt=""></Image>
               </picture>
               <div className={styled.containerTextTop}>
-                <h3>Starter</h3>
-                <p>$29 </p>
+                <h3>Tienda online</h3>
+                <p>$1200 </p>
               </div>
             </div>
             <ul>

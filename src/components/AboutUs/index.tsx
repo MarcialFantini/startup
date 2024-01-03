@@ -28,15 +28,16 @@ export const AboutUs = () => {
                 ></Image>
               </picture>
               <div>
-                <p>// 02.ABOUT US</p>
-                <h2>The #1 digital marketing services company</h2>
+                <p>// 02.Sobre nosotros</p>
+                <h2>Programadores dedicados a desarrollar tu negocio online</h2>
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod
-              qui earum illo odit architecto, alias explicabo ratione
-              consequuntur quasi error, neque temporibus quia, consequatur sit
-              exercitationem adipisci ex eum.
+              Creamos lo que necesitas para llevar a cabo una marca en la web,
+              llegando a mas personas,aumentamos la posibilidad de consolidar
+              nuevos clientes, redirigiendo trafico desde tus redes sociales a
+              una plataforma solida online, operando 24/7 para cumplir tus
+              objetivos de tu negocio.
             </p>
           </div>
 
@@ -52,14 +53,16 @@ export const AboutUs = () => {
               <div>
                 <div>
                   <h3 className={styled.subTitle}>
-                    The #1 digital marketing services company
+                    Equipo profesional altamente especializado
                   </h3>
                 </div>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                  natus quasi maiores a quos, libero dolor dolore repellat omnis
-                  molestias excepturi ad esse optio! Dignissimos odit sunt
-                  repellendus fugiat cum!
+                  Nuestro equipo de desarrolladores se especializo en paginas de
+                  presentación, paginas empresariales y tiendas online.
+                </p>
+                <p>
+                  Podemos llevar a cabo mas soluciones pero nuestros principales
+                  servicios son esos.
                 </p>
               </div>
             </li>
@@ -74,14 +77,13 @@ export const AboutUs = () => {
               <div>
                 <div>
                   <h3 className={styled.subTitle}>
-                    The #1 digital marketing services company
+                    Servicio personalizado a tu medida
                   </h3>
                 </div>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-                  natus quasi maiores a quos, libero dolor dolore repellat omnis
-                  molestias excepturi ad esse optio! Dignissimos odit sunt
-                  repellendus fugiat cum!
+                  Nuestros servicios son ideales para empresas que recién están
+                  comenzado a modernizarse y a empresas que quieren llegar al
+                  siguiente nivel.
                 </p>
               </div>
             </li>

@@ -8,7 +8,6 @@
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  min-height: 100px;
 
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(20px);

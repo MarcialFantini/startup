@@ -11,11 +11,16 @@
   padding: 20px;
 
   width: 90%;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
 
   display: flex;
   flex-direction: column;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin: 0;
 }
 
 .text {
@@ -40,8 +45,8 @@
   border: 1px solid #424245;
   background: linear-gradient(180deg, #36363e 0%, #292930 100%);
 
-  padding: 20px;
-
+  padding: 30px;
+  gap: 10px;
   color: white;
 }
 
@@ -55,6 +60,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.textArticle {
+  margin-bottom: auto;
 }
 
 .img {

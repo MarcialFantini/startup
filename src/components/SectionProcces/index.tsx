@@ -18,18 +18,18 @@ interface ProcessArticleInterface {
 const listProcess: ProcessArticleInterface[] = [
   {
     srcImage: icon1,
-    title: "Marketing Plan",
-    text: "consectetur amet dolor sit comeneer ilremsilom dolce issilm acalrm ",
+    title: "Analizamos tu negocio",
+    text: "Llevamos a cabo estudios de tu negocio a fondo para transmitir de manera online que necesitas. ",
   },
   {
     srcImage: icon2,
-    title: "Marketing Plan",
-    text: "consectetur amet dolor sit comeneer ilremsilom dolce issilm acalrm ",
+    title: "Creamos un plan de acción",
+    text: "Teniendo un plan de acción podemos crear todo lo que necesitas en tu negocio, ya sea formularios para recabar información o mostrar los productos que vendes de la manera mas optima.",
   },
   {
     srcImage: icon3,
-    title: "Marketing Plan",
-    text: "consectetur amet dolor sit comeneer ilremsilom dolce issilm acalrm ",
+    title: "Llevamos a cabo la mejora de tu negocio",
+    text: "Entregamos tu solución en el menor tiempo posible con la maxima calidad para que tu negocio pueda crecer. ",
   },
 ];
 
@@ -59,8 +59,8 @@ export const SectionProcces = () => {
         <picture className={styled.iconGreat}>
           <Image src={principalIcon} alt=""></Image>
         </picture>
-        <p>//03.PROCESS</p>
-        <h2>A simple, yet powerful and efficient process</h2>
+        <p>//03. Proseso</p>
+        <h2>Un simple proceso que llevaremos a cabo para vos</h2>
       </div>
 
       <div className={styled.containerArticles}>
