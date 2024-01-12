@@ -23,6 +23,9 @@
   gap: 20px;
   list-style: none;
 }
+.customBtn {
+  border: none;
+}
 
 @media (max-width: 800px) {
   .listLink {

@@ -11,7 +11,7 @@ export const SectionStudies = () => {
             <Image src={""} alt=""></Image>
           </picture>
           <div>
-            <p>// 05. Soluciones</p>
+            <p>// 04. Soluciones</p>
             <h2>Alto impacto con nuestras soluciones</h2>
           </div>
         </div>

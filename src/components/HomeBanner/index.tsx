@@ -2,10 +2,11 @@ import Image from "next/image";
 import style from "./styled.module.css";
 import srcImage from "../../../public/images/headers/Pattern.png";
 import { Button } from "../Button";
+import { BtnScroll } from "../BtnScroll";
 
 export const HomeBanner = () => {
   return (
-    <section className={style.containerSection}>
+    <section id="homeId" className={style.containerSection}>
       <div className={style.containerAll}>
         <article className={style.article}>
           <p className={style.subtitle}>
@@ -22,8 +23,10 @@ export const HomeBanner = () => {
             propones.
           </p>
           <div className={style.containerBtn}>
-            <Button dark>Nuestros servicios</Button>
-            <Button>Conecta con nosotros!</Button>
+            <BtnScroll idElement="contactId" dark>
+              Nuestros servicios
+            </BtnScroll>
+            <BtnScroll idElement="contactId">Conecta con nosotros!</BtnScroll>
           </div>
         </article>
         <picture className={style.picture}>

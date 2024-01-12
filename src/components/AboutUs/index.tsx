@@ -8,7 +8,7 @@ import styled from "./styled.module.css";
 
 export const AboutUs = () => {
   return (
-    <section className={styled.sectionAboutUs}>
+    <section id="nosotrosId" className={styled.sectionAboutUs}>
       <div className={styled.limitContainer}>
         <picture className={styled.picture}>
           <Image

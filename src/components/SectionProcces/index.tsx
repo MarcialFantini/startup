@@ -54,7 +54,7 @@ export const SectionProcces = () => {
     }, 200);
   }, []);
   return (
-    <section className={styled.sectionContainer}>
+    <section id="procesoId" className={styled.sectionContainer}>
       <div className={styled.header}>
         <picture className={styled.iconGreat}>
           <Image src={principalIcon} alt=""></Image>

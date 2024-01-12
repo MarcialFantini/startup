@@ -1,16 +1,17 @@
 import Image from "next/image";
 import styled from "./style.module.css";
 import { Button } from "../Button";
+import { BtnScroll } from "../BtnScroll";
 
 export const SectionOurPrice = () => {
   return (
-    <section className={styled.containerAll}>
+    <section id="pricesId" className={styled.containerAll}>
       <div className={styled.maxContent}>
         <div className={styled.header}>
           <picture className={styled.iconGreat}>
             <Image src={""} alt=""></Image>
           </picture>
-          <p>// 06 . Paquetes y precios</p>
+          <p>// 05 . Paquetes y precios</p>
           <h2>Paquetes flexibles que necesitas para tu empresa</h2>
         </div>
 
@@ -26,15 +27,30 @@ export const SectionOurPrice = () => {
               </div>
             </div>
             <ul>
-              <li>Email MarketingContent</li>
-              <li>MarketingVoice</li>
-              <li>OptimizeSEO</li>
-              <li>ConsultingVideo</li>
-              <li>MarketingAdvertising</li>
+              <li>Pagina principal</li>
+              <li>
+                Páginas web con diseño personalizado y responsivo para ser visto
+                en celulares y tablet
+              </li>
+              <li>Formulario de contacto</li>
+              <li>Galerías de imágenes </li>
+              <li>Videos de YouTube</li>
+              <li>Certificado de Seguridad SSL</li>
+              <li>Almacenamiento de 100 GB de ssd</li>
+              <li>Ancho de banda ilimitado</li>
+              <li>Botones de redirección de WhatsApp </li>
+              <li>Botones de redes sociales </li>
+              <li>Copia de seguridad semanales</li>
+              <li>Certificado de Seguridad SSL</li>
+              <li>Sistema auto gestionado</li>
             </ul>
-            <Button classCustom={styled.customBtn} dark>
-              Contact Me
-            </Button>
+            <BtnScroll
+              idElement="contactId"
+              customClass={styled.customBtn}
+              dark
+            >
+              Hablemos!
+            </BtnScroll>
           </article>
           <article
             style={{ background: "#292930", color: "white" }}
@@ -50,18 +66,32 @@ export const SectionOurPrice = () => {
               </div>
             </div>
             <ul>
-              <li>Email MarketingContent</li>
-              <li>MarketingVoice</li>
-              <li>OptimizeSEO</li>
-              <li>ConsultingVideo</li>
-              <li>MarketingAdvertising</li>
+              <li>Pagina principal</li>
+              <li>Hasta 3 Sub Paginas </li>
+              <li>
+                Páginas web con diseño personalizado y responsivo para ser visto
+                en celulares y tablet
+              </li>
+              <li>Formulario de contacto</li>
+              <li>Galerías de imágenes </li>
+              <li>Videos de YouTube</li>
+              <li>Certificado de Seguridad SSL</li>
+              <li>Almacenamiento de 100 GB de ssd</li>
+              <li>Ancho de banda ilimitado</li>
+              <li>Botones de redirección de WhatsApp </li>
+              <li>Botones de redes sociales </li>
+              <li>Copia de seguridad semanales</li>
+              <li>Certificado de Seguridad SSL</li>
+              <li>Sistema auto gestionado</li>
+              <li>Sistema de publicación de contenido auto-administrable </li>
             </ul>
-            <Button
-              classCustom={styled.customBtn + " " + styled.middlePrice}
+            <BtnScroll
+              idElement="contactId"
+              customClass={styled.customBtn + " " + styled.middlePrice}
               dark
             >
               Contact Me
-            </Button>
+            </BtnScroll>
           </article>
           <article>
             <div className={styled.topArticle}>
@@ -74,15 +104,34 @@ export const SectionOurPrice = () => {
               </div>
             </div>
             <ul>
-              <li>Email MarketingContent</li>
-              <li>MarketingVoice</li>
-              <li>OptimizeSEO</li>
-              <li>ConsultingVideo</li>
-              <li>MarketingAdvertising</li>
+              <li>Pagina principal</li>
+              <li>Hasta 5 Sub Paginas </li>
+              <li>
+                Páginas web con diseño personalizado y responsivo para ser visto
+                en celulares y tablet
+              </li>
+              <li>Formulario de contacto</li>
+              <li>Galerías de imágenes </li>
+              <li>Videos de YouTube</li>
+              <li>Certificado de Seguridad SSL</li>
+              <li>Almacenamiento de 100 GB de ssd</li>
+              <li>Ancho de banda ilimitado</li>
+              <li>Botones de redirección de WhatsApp </li>
+              <li>Botones de redes sociales </li>
+              <li>Copia de seguridad semanales</li>
+              <li>Certificado de Seguridad SSL</li>
+              <li>Sistema auto gestionado</li>
+              <li>Sistema de publicación de contenido auto-administrable </li>
+              <li>Sistema de inventario</li>
+              <li>Sistema de ventas auto-gestionado.</li>
             </ul>
-            <Button classCustom={styled.customBtn} dark>
+            <BtnScroll
+              idElement="contactId"
+              customClass={styled.customBtn}
+              dark
+            >
               Contact Me
-            </Button>
+            </BtnScroll>
           </article>
         </div>
       </div>

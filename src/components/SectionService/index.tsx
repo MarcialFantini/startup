@@ -5,6 +5,7 @@ import { Button } from "../Button";
 import srcIcon1 from "../../../public/images/icons web/landing.png";
 import srcIcon2 from "../../../public/images/icons web/blog.png";
 import srcIcon3 from "../../../public/images/icons web/e-commerce.png";
+import { BtnScroll } from "../BtnScroll";
 
 const listArticles = [
   {
@@ -26,7 +27,7 @@ const listArticles = [
 
 export const SectionService = () => {
   return (
-    <section className={styled.containerSection}>
+    <section id="serviceId" className={styled.containerSection}>
       <div className={styled.containerArticles}>
         <div className={styled.text}>
           <picture>
@@ -56,7 +57,10 @@ export const SectionService = () => {
                 </picture>
                 <h4 className={styled.title}>{item.title}</h4>
                 <p className={styled.textArticle}>{item.text}</p>
-                <Button classCustom={styled.button}> Reed More</Button>
+                <BtnScroll idElement="contactId" customClass={styled.button}>
+                  {" "}
+                  Reed More
+                </BtnScroll>
               </article>
             );
           })}

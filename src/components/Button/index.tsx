@@ -1,21 +1,28 @@
+import Link from "next/link";
 import styled from "./styled.module.css";
 
 export const Button = ({
   dark,
   children,
   classCustom,
+  href,
+  targetAtr,
 }: {
+  href?: string;
   dark?: boolean;
+  targetAtr?: string;
   classCustom?: string;
-  children: string;
+  children: any;
 }) => {
   return (
-    <button
+    <Link
+      href={href ? href : "/"}
+      target={targetAtr ? targetAtr : "_blank"}
       className={
         styled.btn + " " + (dark ? styled.dark : "") + " " + classCustom
       }
     >
       {children}
-    </button>
+    </Link>
   );
 };
