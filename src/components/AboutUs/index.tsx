@@ -12,7 +12,7 @@ export const AboutUs = () => {
       <div className={styled.limitContainer}>
         <picture className={styled.picture}>
           <Image
-            className={styled.img}
+            className={styled.img + " " + styled.animationPicture}
             alt="phone great"
             src={srcPhone}
           ></Image>

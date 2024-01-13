@@ -30,7 +30,11 @@ export const HomeBanner = () => {
           </div>
         </article>
         <picture className={style.picture}>
-          <Image className={style.img} src={srcImage} alt="Imagen "></Image>
+          <Image
+            className={style.img + " " + style.animationPicture}
+            src={srcImage}
+            alt="Imagen "
+          ></Image>
         </picture>
       </div>
     </section>

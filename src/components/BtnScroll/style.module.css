@@ -6,10 +6,13 @@
   border-radius: 7px;
   text-decoration: none;
   color: black;
+  background: white;
+  transition: all 0.3s;
 }
 
 .btn:hover {
   cursor: pointer;
+  filter: invert();
 }
 
 .dark {

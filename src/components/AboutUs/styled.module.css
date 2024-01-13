@@ -74,3 +74,18 @@
     flex-direction: column;
   }
 }
+
+@keyframes shakePicture {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(0, 10px) rotate(-2deg);
+  }
+}
+
+.animationPicture {
+  animation: shakePicture 3s linear infinite;
+}

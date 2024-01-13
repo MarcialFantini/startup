@@ -10,6 +10,7 @@
   margin: 40px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0 30px;
 }
 
 .article {
@@ -33,6 +34,21 @@
 .img {
   width: 90%;
   height: auto;
+}
+
+@keyframes shakePicture {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  50% {
+    transform: translate(0, 10px) rotate(-2deg);
+  }
+}
+
+.animationPicture {
+  animation: shakePicture 2s linear infinite;
 }
 
 @media (max-width: 800px) {
