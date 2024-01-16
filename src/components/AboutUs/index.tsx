@@ -34,7 +34,7 @@ export const AboutUs = () => {
             </div>
             <p>
               Creamos lo que necesitas para llevar a cabo una marca en la web,
-              llegando a mas personas,aumentamos la posibilidad de consolidar
+              llegando a más personas,aumentamos la posibilidad de consolidar
               nuevos clientes, redirigiendo trafico desde tus redes sociales a
               una plataforma solida online, operando 24/7 para cumplir tus
               objetivos de tu negocio.
@@ -61,7 +61,7 @@ export const AboutUs = () => {
                   presentación, paginas empresariales y tiendas online.
                 </p>
                 <p>
-                  Podemos llevar a cabo mas soluciones pero nuestros principales
+                  Podemos llevar a cabo más soluciones pero nuestros principales
                   servicios son esos.
                 </p>
               </div>

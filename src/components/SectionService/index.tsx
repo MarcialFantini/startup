@@ -59,7 +59,7 @@ export const SectionService = () => {
                 <p className={styled.textArticle}>{item.text}</p>
                 <BtnScroll idElement="contactId" customClass={styled.button}>
                   {" "}
-                  Reed More
+                  Ver más
                 </BtnScroll>
               </article>
             );

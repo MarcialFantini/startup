@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styled from "./styled.module.css";
-import srcPhoto from "../../../public/images/studies/Photo.jpg";
+import { Suspense } from "react";
 
 export const SectionStudies = () => {
   return (
@@ -32,9 +32,17 @@ export const SectionStudies = () => {
               <h3>Te damos una forma clara de comunicación con el cliente</h3>
             </div>
           </div>
-          <picture className={styled.pictureArticle}>
-            <Image className={styled.img} alt="" src={srcPhoto}></Image>
-          </picture>
+
+          <div className={styled.pictureArticle}>
+            <Suspense>
+              <video
+                autoPlay
+                muted
+                className={styled.img}
+                src={"videos/team.webm"}
+              ></video>
+            </Suspense>
+          </div>
         </article>
       </div>
     </section>
