@@ -38,6 +38,7 @@ export const SectionStudies = () => {
               <video
                 autoPlay
                 muted
+                loop
                 className={styled.img}
                 src={"videos/team.webm"}
               ></video>
