@@ -28,16 +28,13 @@ export const AboutUs = () => {
                 ></Image>
               </picture>
               <div>
-                <p>// 02.Sobre nosotros</p>
-                <h2>Programadores dedicados a desarrollar tu negocio online</h2>
+                <p>// 02. Nosotros</p>
+                <h2>Programadores dedicados</h2>
               </div>
             </div>
             <p>
-              Creamos lo que necesitas para llevar a cabo una marca en la web,
-              llegando a más personas,aumentamos la posibilidad de consolidar
-              nuevos clientes, redirigiendo trafico desde tus redes sociales a
-              una plataforma solida online, operando 24/7 para cumplir tus
-              objetivos de tu negocio.
+              Especializados en distintas areas desde diseño a bases de datos,
+              nuestro equipo de especialista es perfecto en nuestros servicios.
             </p>
           </div>
 
@@ -57,12 +54,8 @@ export const AboutUs = () => {
                   </h3>
                 </div>
                 <p>
-                  Nuestro equipo de desarrolladores se especializo en paginas de
-                  presentación, paginas empresariales y tiendas online.
-                </p>
-                <p>
-                  Podemos llevar a cabo más soluciones pero nuestros principales
-                  servicios son esos.
+                  Especializo en paginas de presentación, paginas empresariales
+                  y tiendas online.
                 </p>
               </div>
             </li>
@@ -81,9 +74,7 @@ export const AboutUs = () => {
                   </h3>
                 </div>
                 <p>
-                  Nuestros servicios son ideales para empresas que recién están
-                  comenzado a modernizarse y a empresas que quieren llegar al
-                  siguiente nivel.
+                  Cada pagina esta diseñada a base de cada cliente y necesidad.
                 </p>
               </div>
             </li>

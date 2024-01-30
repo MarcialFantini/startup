@@ -11,17 +11,17 @@ const listArticles = [
   {
     src: srcIcon1,
     title: "Landing page",
-    text: "Optimizada para captar clientes, perfecto complemento de una campaña de marketing",
+    text: "Convierte audiencia en clientes.",
   },
   {
     src: srcIcon2,
     title: "Pagina Empresarial",
-    text: "Ideal para generar presencia, credibilidad y comunicación con clientes",
+    text: "Seguridad y confianza para tu comunidad o empresa.",
   },
   {
     src: srcIcon3,
     title: "Tienda online",
-    text: "Vende tus productos de manera online, disponible 24/7 y felicidad de gestión de inventarios",
+    text: "Vende de manera automática tus productos o cursos.",
   },
 ];
 
@@ -35,10 +35,7 @@ export const SectionService = () => {
           </picture>
           <div>
             <p>// 01 . Servicios</p>
-            <h2>
-              Nuestros servicios de alto impacto para llevar tu negocio al
-              siguiente nivel.
-            </h2>
+            <h2>Servicios de alto impacto.</h2>
           </div>
         </div>
         <div className={styled.articles}>

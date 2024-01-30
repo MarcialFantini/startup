@@ -19,17 +19,17 @@ export const SectionStudies = () => {
         <article className={styled.article}>
           <div className={styled.drops}>
             <div>
-              <h3> Te damos presencia online</h3>
+              <h3>Presentamos tu marca en la web</h3>
             </div>
             <div>
-              <h3>Ahorramos el tiempo en procesos</h3>
+              <h3>Automatizamos tus ventas </h3>
             </div>
 
             <div>
-              <h3>Automatizamos tus ventas online</h3>
+              <h3>Mejoramos tu marca personal</h3>
             </div>
             <div>
-              <h3>Te damos una forma clara de comunicación con el cliente</h3>
+              <h3>Hacemos canales de conversion de audiencia</h3>
             </div>
           </div>
 

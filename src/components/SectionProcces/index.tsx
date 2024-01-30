@@ -43,11 +43,6 @@ export const SectionProcces = () => {
       if (itemFirst && itemLast) {
         const distanciaEntreElementos =
           itemLast.offsetTop - itemFirst.offsetTop;
-        console.log(
-          'La distancia entre los elementos "primero" y "ultimo" es: ' +
-            distanciaEntreElementos +
-            " píxeles."
-        );
 
         setDist(distanciaEntreElementos + 200);
       }
