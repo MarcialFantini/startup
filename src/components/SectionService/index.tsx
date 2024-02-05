@@ -1,11 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import styled from "./styled.module.css";
-import { Button } from "../Button";
 
 import srcIcon1 from "../../../public/images/icons web/landing.png";
 import srcIcon2 from "../../../public/images/icons web/blog.png";
 import srcIcon3 from "../../../public/images/icons web/e-commerce.png";
 import { BtnScroll } from "../BtnScroll";
+import { useShow } from "@/customHooks/useShow";
+import { useEffect, useRef } from "react";
 
 const listArticles = [
   {
@@ -26,8 +29,12 @@ const listArticles = [
 ];
 
 export const SectionService = () => {
+  const ref = useRef(null);
+
+  const { show } = useShow(ref);
+
   return (
-    <section id="serviceId" className={styled.containerSection}>
+    <section ref={ref} id="serviceId" className={styled.containerSection}>
       <div className={styled.containerArticles}>
         <div className={styled.text}>
           <picture>
@@ -42,7 +49,8 @@ export const SectionService = () => {
           {listArticles.map((item, index) => {
             return (
               <article
-                className={styled.article}
+                style={{ transition: `all 0.3s ${index * 0.6}s` }}
+                className={styled.article + " " + (show ? styled.show : "")}
                 key={item.title + " " + index}
               >
                 <picture className={styled.picture}>

@@ -35,13 +35,10 @@ export const SectionOurPrice = () => {
               <li>Formulario de contacto</li>
               <li>Galerías de imágenes </li>
               <li>Videos de YouTube</li>
-              <li>Certificado de Seguridad SSL</li>
-              <li>Almacenamiento de 100 GB de ssd</li>
-              <li>Ancho de banda ilimitado</li>
+
               <li>Botones de redirección de WhatsApp </li>
               <li>Botones de redes sociales </li>
-              <li>Copia de seguridad semanales</li>
-              <li>Certificado de Seguridad SSL</li>
+
               <li>Sistema auto gestionado</li>
             </ul>
             <BtnScroll
@@ -75,13 +72,10 @@ export const SectionOurPrice = () => {
               <li>Formulario de contacto</li>
               <li>Galerías de imágenes </li>
               <li>Videos de YouTube</li>
-              <li>Certificado de Seguridad SSL</li>
-              <li>Almacenamiento de 100 GB de ssd</li>
-              <li>Ancho de banda ilimitado</li>
+
               <li>Botones de redirección de WhatsApp </li>
               <li>Botones de redes sociales </li>
-              <li>Copia de seguridad semanales</li>
-              <li>Certificado de Seguridad SSL</li>
+
               <li>Sistema auto gestionado</li>
               <li>Sistema de publicación de contenido auto-administrable </li>
             </ul>
@@ -113,13 +107,10 @@ export const SectionOurPrice = () => {
               <li>Formulario de contacto</li>
               <li>Galerías de imágenes </li>
               <li>Videos de YouTube</li>
-              <li>Certificado de Seguridad SSL</li>
-              <li>Almacenamiento de 100 GB de ssd</li>
-              <li>Ancho de banda ilimitado</li>
+
               <li>Botones de redirección de WhatsApp </li>
               <li>Botones de redes sociales </li>
-              <li>Copia de seguridad semanales</li>
-              <li>Certificado de Seguridad SSL</li>
+
               <li>Sistema auto gestionado</li>
               <li>Sistema de publicación de contenido auto-administrable </li>
               <li>Sistema de inventario</li>

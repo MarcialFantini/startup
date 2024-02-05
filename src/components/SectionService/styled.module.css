@@ -48,6 +48,9 @@
   padding: 30px;
   gap: 10px;
   color: white;
+
+  opacity: 0;
+  transform: translate(-25%);
 }
 
 .picture {
@@ -80,4 +83,9 @@
 .button:hover {
   color: black;
   background: #ffdc60;
+}
+
+.show {
+  opacity: 1;
+  transform: translate(0);
 }

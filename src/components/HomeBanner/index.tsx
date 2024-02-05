@@ -1,14 +1,21 @@
+"use client";
 import Image from "next/image";
 import style from "./styled.module.css";
 import srcImage from "../../../public/images/headers/Pattern.png";
-import { Button } from "../Button";
+
 import { BtnScroll } from "../BtnScroll";
+import { useShow } from "@/customHooks/useShow";
+import { useRef } from "react";
 
 export const HomeBanner = () => {
+  const ref = useRef(null);
+
+  const { show } = useShow(ref);
+
   return (
-    <section id="homeId" className={style.containerSection}>
+    <section ref={ref} id="homeId" className={style.containerSection}>
       <div className={style.containerAll}>
-        <article className={style.article}>
+        <article className={style.article + " " + (show ? style.show : "")}>
           <p className={style.subtitle}>
             <span>//</span> Consultoría de software
           </p>
@@ -26,7 +33,7 @@ export const HomeBanner = () => {
             <BtnScroll idElement="contactId">Conecta con nosotros!</BtnScroll>
           </div>
         </article>
-        <picture className={style.picture}>
+        <picture className={style.picture + " " + (show ? style.show : "")}>
           <Image
             className={style.img + " " + style.animationPicture}
             src={srcImage}
